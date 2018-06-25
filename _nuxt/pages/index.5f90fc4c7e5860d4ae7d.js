@@ -386,11 +386,14 @@ webpackJsonp([3], {
 							hide: this.$route.query.noimage
 						}, {
 							key: "rank",
-							value: "Rang (auf BGG)"
+							value: "Rang"
 						}, {
 							key: "average",
-							value: "Bewertung (auf BGG) "
-						},  {
+							value: "Bewertung"
+						}, /*{
+							key: "rating",
+							value: "Bewertung"
+						},*/ {
 							key: "name",
 							value: "Name"
 						}, {
@@ -5681,7 +5684,7 @@ webpackJsonp([3], {
 											}, [r("a", [t._v(t._s(n.date))])]) : t._e(), t.hasHeader("weight") ? r("td", [r("span", {
 														staticClass: "badge",
 														class: ["badge-" + t.getWeightColor(n.weight)]
-													}, [t._v(t._s(t._f("number")(n.weight)))])]) : t._e(), t.hasHeader("playingtime") ? r("td", [t._v(t._s(n.playingtime) + " mins")]) : t._e(), t.hasHeader("bggbestplayers") ? r("td", {
+													}, [t._v(t._s(t._f("number")(n.weight)))])]) : t._e(), t.hasHeader("playingtime") ? r("td", [t._v(t._s(n.playingtime) + " Min.")]) : t._e(), t.hasHeader("bggbestplayers") ? r("td", {
 												staticClass: "best-player"
 											}, [t._v(t._s(n.bggbestplayers))]) : t._e(), t.hasHeader("numplays") && t.singleUser ? r("td", {
 												staticClass: "num-plays"
