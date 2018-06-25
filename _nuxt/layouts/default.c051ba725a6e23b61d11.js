@@ -164,7 +164,7 @@ webpackJsonp([5], {
 		var n = function () {
 			var t = this.$createElement,
 			e = this._self._c || t;
-			return null; /*e("b-nav", {
+			return e("b-nav", {
 				staticClass: "header"
 			}, [e("b-nav-item", [e("nuxt-link", {
 								attrs: {
@@ -191,7 +191,7 @@ webpackJsonp([5], {
 								attrs: {
 									to: "/help"
 								}
-							}, [this._v("Help")])], 1)], 1)*/
+							}, [this._v("Help")])], 1)], 1)
 		};
 		n._withStripped = !0;
 		var r = {
