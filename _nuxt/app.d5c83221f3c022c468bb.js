@@ -186789,7 +186789,7 @@ webpackJsonp([8], {
 																				console.error(t.t0),
 																				t.t0.config ? (l = t.t0.config.params.username, d("items/query/error", {
 																						key: w,
-																						err: 'Waiting for BGG to process for user "' + l + '". Please try again later for access.'
+																						err: 'Warte auf BoardGameGeek - Herunterladen der Spiele von Benutzer: "' + l + '". Bitte gleich später nochmal probieren!'
 																					})) : d("items/query/error", t.t0.toString()),
 																				t.abrupt("return", o);
 																			case 20:
