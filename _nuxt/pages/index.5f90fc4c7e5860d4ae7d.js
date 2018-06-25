@@ -341,7 +341,7 @@ webpackJsonp([3], {
 		p = r("NYxO");
 		n.a = {
 			beforeCreate: function () {
-				this.$route.query.userId ? u.a.set("username", this.$route.query.userId) : this.$route.query.userid ? u.a.set("username", this.$route.query.userid) : u.a.get("username") || u.a.set("username", "Za Warudo"),
+				this.$route.query.userId ? u.a.set("username", this.$route.query.userId) : this.$route.query.userid ? u.a.set("username", this.$route.query.userid) : u.a.get("username") || u.a.set("username", "Spielkreis_Ebenthal"),
 				this.$route.query.showexp ? u.a.set("showexp", !0) : "" === u.a.get("showexp") && u.a.set("showexp", !1)
 			},
 			components: {
