@@ -524,7 +524,7 @@ webpackJsonp([3], {
 											variant: "outline-primary",
 											size: "sm"
 										}
-									}, [t._v("Toggle Filters")])], 1)], 1), r("b-collapse", {
+									}, [t._v("Filter")])], 1)], 1), r("b-collapse", {
 						attrs: {
 							visible: "",
 							id: "collapse1"
@@ -533,7 +533,7 @@ webpackJsonp([3], {
 								attrs: {
 									horizontal: "",
 									"label-cols": 2,
-									label: "Players"
+									label: "Anzahl Spieler"
 								}
 							}, [r("b-row", [r("b-col", {
 												attrs: {
@@ -593,7 +593,7 @@ webpackJsonp([3], {
 								attrs: {
 									horizontal: "",
 									"label-cols": 2,
-									label: "Play Time"
+									label: "Spieldauer"
 								}
 							}, [r("b-row", [r("b-col", {
 												attrs: {
@@ -602,7 +602,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Min Play Time",
+															placeholder: "min. Spieldauer",
 															min: "0",
 															step: "10",
 															size: "sm"
@@ -621,7 +621,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Max Play Time",
+															placeholder: "max. Spieldauer",
 															min: "0",
 															step: "10",
 															size: "sm"
@@ -637,7 +637,7 @@ webpackJsonp([3], {
 								attrs: {
 									horizontal: "",
 									"label-cols": 2,
-									label: "Weight"
+									label: "Schwierigkeit"
 								}
 							}, [r("b-row", [r("b-col", {
 												attrs: {
@@ -646,7 +646,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Min Weight",
+															placeholder: "min. Schwierigkeit",
 															min: "1",
 															step: "0.1",
 															size: "sm"
@@ -665,7 +665,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Max Weight",
+															placeholder: "max. Schwierigkeit",
 															min: "1",
 															step: "0.1",
 															size: "sm"
@@ -5263,7 +5263,7 @@ webpackJsonp([3], {
 												attrs: {
 													"aria-hidden": "true"
 												}
-											}), t._v("\n        Get Me A Game\n      ")])], 1), r("b-col", {
+											}), t._v("\n        Zuf&auml;lliges Spiel\n      ")])], 1), r("b-col", {
 								attrs: {
 									sm: "auto"
 								}
@@ -5282,12 +5282,12 @@ webpackJsonp([3], {
 														attrs: {
 															"aria-hidden": "true"
 														}
-													}), t._v("\n          Toggle Grid View\n        ")]) : t._e(), t.views.listView ? t._e() : r("span", [r("i", {
+													}), t._v("\n          Ansicht als Liste\n        ")]) : t._e(), t.views.listView ? t._e() : r("span", [r("i", {
 														staticClass: "fa fa-list",
 														attrs: {
 															"aria-hidden": "true"
 														}
-													}), t._v("\n          Toggle Table View\n        ")])])], 1)], 1)], 1)
+													}), t._v("\n          Ansicht mit Bildern\n        ")])])], 1)], 1)], 1)
 		};
 		e._withStripped = !0;
 		var i = {

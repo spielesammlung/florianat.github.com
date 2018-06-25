@@ -45,7 +45,7 @@ webpackJsonp([5], {
 								],
 								attrs: {
 									type: "text",
-									placeholder: "Your BGG username"
+									placeholder: "Dein BGG Benutzername"
 								},
 								domProps: {
 									value: t.username
@@ -64,7 +64,7 @@ webpackJsonp([5], {
 										t.change()
 									}
 								}
-							}, [t._v("Change user")])])])
+							}, [t._v("Anderer Spieler")])])])
 		};
 		n._withStripped = !0;
 		var r = {
@@ -171,7 +171,7 @@ webpackJsonp([5], {
 									to: "/",
 									exact: ""
 								}
-							}, [this._v("Collection")])], 1)], 1)
+							}, [this._v("Spielesammlung von")])], 1)], 1)
 		};
 		n._withStripped = !0;
 		var r = {
