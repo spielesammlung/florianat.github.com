@@ -171,7 +171,7 @@ webpackJsonp([5], {
 									to: "/",
 									exact: ""
 								}
-							}, [this._v("Collection")])], 1), e("b-nav-item", [e("nuxt-link", {
+							}, [this._v("Collectxion")])], 1), e("b-nav-item", [e("nuxt-link", {
 								attrs: {
 									to: "/want-to-play"
 								}
