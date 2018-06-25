@@ -120,7 +120,7 @@ webpackJsonp([3], {
 															src: t.imageUrl
 														}
 													})], 1)])
-								}))], 1), this._v("\n  Item count: " + this._s(this.filteredGames.length) + "\n")], 1)
+								}))], 1), this._v("\n  Anzahl: " + this._s(this.filteredGames.length) + "\n")], 1)
 		};
 		e._withStripped = !0;
 		var i = {
@@ -542,7 +542,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Best #",
+															placeholder: "Beste Anzahl",
 															min: "1",
 															size: "sm"
 														},
@@ -560,7 +560,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Recommended #",
+															placeholder: "Empfohlene Anzahl",
 															min: "1",
 															size: "sm"
 														},
@@ -578,7 +578,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Supported #",
+															placeholder: "Mögliche Anzahl",
 															min: "1",
 															size: "sm"
 														},
@@ -731,7 +731,7 @@ webpackJsonp([3], {
 												}
 											}, [r("b-tabs", [r("b-tab", {
 																attrs: {
-																	title: "Show",
+																	title: "Nur folgende anzeigen",
 																	active: ""
 																}
 															}, [r("b-form-group", [r("b-form-checkbox-group", {
@@ -748,7 +748,7 @@ webpackJsonp([3], {
 																				}
 																			})], 1)], 1), r("b-tab", {
 																attrs: {
-																	title: "Hide"
+																	title: "Folgende ausschließen"
 																}
 															}, [r("b-form-group", [r("b-form-checkbox-group", {
 																				attrs: {
@@ -770,7 +770,7 @@ webpackJsonp([3], {
 														on: {
 															click: t.onClose
 														}
-													}, [t._v("Close")])], 1)], 1), t.showOwned ? r("b-col", {
+													}, [t._v("Schließen")])], 1)], 1), t.showOwned ? r("b-col", {
 										attrs: {
 											sm: "auto"
 										}
@@ -5455,7 +5455,7 @@ webpackJsonp([3], {
 					getARandomGame: function () {
 						var t = Object(i.a)(this.$store.state.items[this.$route.name], this.$store.state.filters),
 						n = Math.floor(Math.random() * t.length);
-						this.$toast.success("Go play " + t[n].name, {
+						this.$toast.success("Wie wär's mit " + t[n].name, {
 							icon: "fa-play",
 							action: {
 								text: "Link",
@@ -5715,7 +5715,7 @@ webpackJsonp([3], {
 											}, [r("ul", t._l(n.mech, function (n) {
 															return r("li", [t._v(t._s(n))])
 														}))]) : t._e()])
-								}))]) : t._e(), t._v("\n  Item count: " + t._s(t.filteredGames.length) + "\n")])
+								}))]) : t._e(), t._v("\n  Anzahl: " + t._s(t.filteredGames.length) + "\n")])
 		};
 		e._withStripped = !0;
 		var i = {
