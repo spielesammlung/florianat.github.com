@@ -542,7 +542,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Beste Anzahl",
+															placeholder: "(am besten mit)",
 															min: "1",
 															size: "sm"
 														},
@@ -560,7 +560,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Empfohlene Anzahl",
+															placeholder: "(empfohlen werden)",
 															min: "1",
 															size: "sm"
 														},
@@ -578,7 +578,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Mögliche Anzahl",
+															placeholder: "(möglich sind)",
 															min: "1",
 															size: "sm"
 														},
