@@ -386,14 +386,11 @@ webpackJsonp([3], {
 							hide: this.$route.query.noimage
 						}, {
 							key: "rank",
-							value: "Beliebtheit"
+							value: "Rang (auf BGG)"
 						}, {
 							key: "average",
-							value: "Bewertung"
-						}, {
-							key: "rating",
-							value: "User Rating"
-						}, {
+							value: "Bewertung (auf BGG) "
+						},  {
 							key: "name",
 							value: "Name"
 						}, {
