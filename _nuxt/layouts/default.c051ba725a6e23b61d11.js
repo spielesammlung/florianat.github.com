@@ -168,7 +168,7 @@ webpackJsonp([5], {
 				staticClass: "header"
 			}, [e("b-nav-item", [e("nuxt-link", {
 								attrs: {
-									to: "/",
+									to: "/?userid=Spielkreis_Ebenthal",
 									exact: ""
 								}
 							}, [this._v("Aktuelle Spielesammlung des Spielkreis Ebenthal")])], 1)], 1)
