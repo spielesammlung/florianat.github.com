@@ -171,7 +171,7 @@ webpackJsonp([5], {
 									to: "/",
 									exact: ""
 								}
-							}, [this._v("Aktuelle Spielesammlung des Spielkreis Ebenthal " + u.a.get("username"))])], 1)], 1)
+							}, [this._v("Aktuelle Spielesammlung des Spielkreis Ebenthal")])], 1)], 1)
 		};
 		n._withStripped = !0;
 		var r = {
