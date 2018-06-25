@@ -386,10 +386,10 @@ webpackJsonp([3], {
 							hide: this.$route.query.noimage
 						}, {
 							key: "rank",
-							value: "Rank"
+							value: "Beliebtheit"
 						}, {
 							key: "average",
-							value: "Avg. Rating"
+							value: "Bewertung"
 						}, {
 							key: "rating",
 							value: "User Rating"
@@ -398,19 +398,19 @@ webpackJsonp([3], {
 							value: "Name"
 						}, {
 							key: "weight",
-							value: "Weight"
+							value: "Schwierigkeit"
 						}, {
 							key: "playingtime",
-							value: "Length"
+							value: "Dauer"
 						}, {
 							key: "bggbestplayers",
-							value: "Best #Player"
+							value: "Beste Anzahl Spieler"
 						}, {
 							key: "numplays",
-							value: "Plays"
+							value: "gespielt"
 						}, {
 							key: "mech",
-							value: "Mechanisms"
+							value: "Mechanismus"
 						}
 					],
 					userId: u.a.get("username")
