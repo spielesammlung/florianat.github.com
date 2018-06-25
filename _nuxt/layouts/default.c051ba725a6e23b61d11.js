@@ -171,27 +171,7 @@ webpackJsonp([5], {
 									to: "/",
 									exact: ""
 								}
-							}, [this._v("Collection")])], 1), e("b-nav-item", [e("nuxt-link", {
-								attrs: {
-									to: "/want-to-play"
-								}
-							}, [this._v("Want To Play")])], 1), e("b-nav-item", [e("nuxt-link", {
-								attrs: {
-									to: "/wishlist"
-								}
-							}, [this._v("Wishlist")])], 1), e("b-nav-item", [e("nuxt-link", {
-								attrs: {
-									to: "/trade-sale"
-								}
-							}, [this._v("Trade/Sale")])], 1), e("b-nav-item", [e("nuxt-link", {
-								attrs: {
-									to: "/latest-100-plays"
-								}
-							}, [this._v("Latest 100 Plays")])], 1), e("b-nav-item", [e("nuxt-link", {
-								attrs: {
-									to: "/help"
-								}
-							}, [this._v("Help")])], 1)], 1)
+							}, [this._v("Collection")])], 1)], 1)
 		};
 		n._withStripped = !0;
 		var r = {
