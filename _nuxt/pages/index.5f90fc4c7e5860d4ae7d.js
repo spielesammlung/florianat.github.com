@@ -681,7 +681,7 @@ webpackJsonp([3], {
 								attrs: {
 									horizontal: "",
 									"label-cols": 2,
-									label: "Plays"
+									label: "Wie oft gespielt"
 								}
 							}, [r("b-row", [r("b-col", {
 												attrs: {
@@ -690,7 +690,7 @@ webpackJsonp([3], {
 											}, [r("b-form-input", {
 														attrs: {
 															type: "number",
-															placeholder: "Fewer Than",
+															placeholder: "Weniger als",
 															min: "0",
 															size: "sm"
 														},
@@ -5244,7 +5244,7 @@ webpackJsonp([3], {
 												attrs: {
 													"aria-hidden": "true"
 												}
-											}), t._v("\n        Share This List\n      ")])], 1), r("b-col", {
+											}), t._v("\n        Diese Liste teilen\n      ")])], 1), r("b-col", {
 								attrs: {
 									sm: "auto"
 								}
@@ -5263,7 +5263,7 @@ webpackJsonp([3], {
 												attrs: {
 													"aria-hidden": "true"
 												}
-											}), t._v("\n        Zuf&auml;lliges Spiel\n      ")])], 1), r("b-col", {
+											}), t._v("\n        Zufälliges Spiel\n      ")])], 1), r("b-col", {
 								attrs: {
 									sm: "auto"
 								}
@@ -5282,12 +5282,12 @@ webpackJsonp([3], {
 														attrs: {
 															"aria-hidden": "true"
 														}
-													}), t._v("\n          Ansicht als Liste\n        ")]) : t._e(), t.views.listView ? t._e() : r("span", [r("i", {
+													}), t._v("\n          Ansicht mit Bildern\n        ")]) : t._e(), t.views.listView ? t._e() : r("span", [r("i", {
 														staticClass: "fa fa-list",
 														attrs: {
 															"aria-hidden": "true"
 														}
-													}), t._v("\n          Ansicht mit Bildern\n        ")])])], 1)], 1)], 1)
+													}), t._v("\n          Ansicht als Liste\n        ")])])], 1)], 1)], 1)
 		};
 		e._withStripped = !0;
 		var i = {

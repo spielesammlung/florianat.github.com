@@ -171,7 +171,7 @@ webpackJsonp([5], {
 									to: "/",
 									exact: ""
 								}
-							}, [this._v("Spielesammlung von")])], 1)], 1)
+							}, [this._v("Spielesammlung")])], 1)], 1)
 		};
 		n._withStripped = !0;
 		var r = {
