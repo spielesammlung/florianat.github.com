@@ -404,10 +404,10 @@ webpackJsonp([3], {
 							value: "Dauer"
 						}, {
 							key: "bggbestplayers",
-							value: "Beste Anzahl Spieler"
+							value: "Beste Spieler-Anzahl"
 						}, {
 							key: "numplays",
-							value: "gespielt"
+							value: "x-mal gespielt"
 						}, {
 							key: "mech",
 							value: "Mechanismus"
@@ -5571,7 +5571,7 @@ webpackJsonp([3], {
 								t.refresh()
 							}
 						}
-					}, [t._v("Refresh")])])
+					}, [t._v("Neu laden")])])
 		};
 		e._withStripped = !0;
 		var i = {

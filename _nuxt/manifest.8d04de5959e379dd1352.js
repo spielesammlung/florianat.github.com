@@ -49,7 +49,7 @@
 		o.nc && c.setAttribute("nonce", o.nc),
 		c.src = o.p + "" + ({
 				0: "pages/wishlist",
-				//1: "pages/want-to-play",
+				1: "pages/want-to-play",
 				2: "pages/trade-sale",
 				3: "pages/index",
 				4: "pages/latest-100-plays",
